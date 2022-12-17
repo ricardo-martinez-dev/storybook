@@ -1,0 +1,10 @@
+{
+	"version": 3,
+	"file": "card.css",
+	"sources": [
+		"../../sass/card/card.scss",
+		"../../sass/foo/foo.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,MAAM,GACnB;;ACHD,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,OAAgB,GACxB"
+}

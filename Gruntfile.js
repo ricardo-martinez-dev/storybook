@@ -3,6 +3,7 @@ module.exports = function (grunt) {
     sass: {
       options: {
         implementation: require("node-sass"),
+        sourceMap: true,
       },
       dist: {
         files: {
@@ -10,8 +11,24 @@ module.exports = function (grunt) {
         },
       },
     },
+
+    watch: {
+      sass: {
+        files: ["./stories/sass/*.scss", "./stories/sass/**/*.scss"],
+        tasks: ["sass"],
+        options: {
+          added: function (path) {
+            console.log(path + " added");
+          },
+          deleted: function (path) {
+            console.log(path + " deleted");
+          },
+        },
+      },
+    },
   });
 
   grunt.loadNpmTasks("grunt-sass");
+  grunt.loadNpmTasks("grunt-contrib-watch");
   grunt.registerTask("default", ["sass"]);
 };

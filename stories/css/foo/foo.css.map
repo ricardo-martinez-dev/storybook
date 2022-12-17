@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "foo.css",
+	"sources": [
+		"../../sass/foo/foo.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,OAAgB,GACxB"
+}

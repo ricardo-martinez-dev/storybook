@@ -1,0 +1,11 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../sass/styles.scss",
+		"../sass/card/card.scss",
+		"../sass/foo/foo.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,CAAC,CAAC;EACA,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,UAAU;EACtB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,GAAG,GACX;;ACND,AAAA,KAAK,CAAC;EACJ,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,MAAM,GACnB;;ACHD,AAAA,IAAI,CAAC;EACH,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,OAAgB,GACxB"
+}
