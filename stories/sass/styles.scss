@@ -3,7 +3,8 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 10px;
-  color: red;
 }
 
-@import "./card/card.scss";
+@import "./button.scss";
+@import "./header.scss";
+@import "./pages.scss";
