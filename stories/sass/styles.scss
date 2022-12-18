@@ -5,6 +5,11 @@
   font-size: 10px;
 }
 
+html {
+  font-size: 10px;
+}
+
+@import "./normaliza";
 @import "./button.scss";
 @import "./header.scss";
 @import "./pages.scss";
